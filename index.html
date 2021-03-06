@@ -23,6 +23,7 @@
         aperiam?
       </p>
       <!-- causes paragraph to be placed on a new page instead of breaking the content of the paragraph -->
+      <!-- page-break-inside stems from CSS2, but it has the same effect  -->
       <p style="break-inside: avoid">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta
         eaque consequatur eligendi architecto vitae repudiandae dolore enim ex
@@ -100,6 +101,9 @@
         Quibusdam neque, aliquam, quod omnis magni nobis vitae in rem mollitia
         commodi sed et aperiam nam! Porro dolores enim dolorem totam ex vel sed,
         beatae error, excepturi et voluptatum!
+        <!-- if the content is higher than the page height, break-inside will still cause the paragraph to be displayed on a new page -->
+        <!-- however the overflowing content is going to break to yet another page -->
+        <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam dolore nesciunt porro, delectus voluptatibus laborum. Quae assumenda sed vero beatae minima magnam ducimus alias doloribus adipisci optio nostrum exercitationem magni suscipit corporis, dolorum repellendus eaque eos distinctio praesentium temporibus id dignissimos? Laudantium reprehenderit dolor aliquid inventore error rerum sed ea natus in commodi, optio accusantium vel quaerat placeat nisi consequatur harum sunt iste exercitationem omnis totam quibusdam, saepe, quos aut. Ipsum aspernatur architecto doloremque, minima reiciendis blanditiis pariatur asperiores iusto dignissimos ex, esse exercitationem quae quibusdam repellat vero optio non sed omnis accusantium nostrum dolor minus? Reprehenderit, animi nisi? -->
       </p>
     </div>
   </body>
